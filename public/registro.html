@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+  
+    <title>Nacho Fútbol Club</title>
+  
+  
+    <link rel="shortcut icon" href="images/Logodorado.png"></link>
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+    <!-- SweetAlert 2 -->
+    <link rel="stylesheet" type="text/css" href="css/sweetalert2.css" />
+
+    <!-- fonts style -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+    </head>
+  
+  <body class="sub_page">
+  
+    <div class="hero_area">
+      <!-- header section strats -->
+      <header class="header_section">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-11 offset-lg-1">
+              <nav class="navbar navbar-expand-lg custom_nav-container ">
+                <a class="navbar-brand" href="index.html">
+                  <img src="images/Logodorado.png" alt="">
+                  <span>
+                    NFC
+                  </span>
+                </a>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+  
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+                    <ul class="navbar-nav  ">
+                      <li class="nav-item ">
+                        <a class="nav-link" href="index.html">Home </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="about.html"> Propietario</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html"> Auspiciadores </a>
+                      </li>
+                      <li class="nav-item ">
+                        <a class="nav-link" href="contact.html">Contáctanos</a>
+                      </li>
+                    </ul>
+                    <form class="form-inline">
+                      <!-- <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button> -->
+                    </form>
+                  </div>
+  
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- end header section -->
+    </div>
+
+
+
+
+
+
+
+
+<section class="contact_section layout_padding">
+    
+  <div class="col-md-6" id="tasks-container"></div>
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Registrarse
+        </h2>
+        <p>
+          Para tener acceso a los abonos, premios y más...
+        </p>
+      </div>
+      <div class="">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <form id="taskFormRegistro" >
+              <div class="contact_form-container">
+                <div>
+                  <div>
+                    <input id="nombreRegistro" type="text" placeholder="Nombre">
+                  </div>
+                  <!-- <div>
+                    <input type="text" placeholder="Phone Number">
+                  </div> -->
+                  <div>
+                    <input id="correoRegistro" type="email" placeholder="Correo">
+                  </div>
+                  <div class="">
+                    <input id="contraseñaRegistro" type="text" placeholder="Contraseña" >
+                  </div>
+                  <div class=" d-flex justify-content-center ">
+                    <button id="btnsaveRegistro" type="button" class="button">
+                      Registrarse
+                    </button>
+                  </div>
+                  <div >
+                    
+                    <a class="notienescuenta" href="iniciosesion.html" >
+                      <br><br>
+                      ¿Ya tienes una cuenta?
+                  </a>
+                  </div>
+                  
+                  
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <!-- info section -->
+  <section class="info_section ">
+    <div class="container">
+      <div class="info_container">
+        <div class="info_social">
+          <div class="d-flex justify-content-center">
+            <h4 class="">
+              Sígueme
+            </h4>
+          </div>
+          <div class="social_box">
+            <a onclick="Facebook()">
+              <img src="images/fb.png" alt="">
+            </a>
+            <!-- <a >
+              <img src="images/twitter.png" alt="">
+            </a> -->
+            <a onclick="Instagram()" >
+              <img src="images/instagram.png" alt="">
+            </a>
+            <a onclick="Linkedin()">
+              <img src="images/linkedin.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info_section -->
+
+  <!-- footer section -->
+  <section class="container-fluid footer_section">
+    <div class="container">
+      <p>
+        &copy; 2023 Todos los derechos reservados
+        <!-- <a href="https://html.design/">Free Html Templates</a> -->
+      </p>
+    </div>
+  </section>
+  <!-- footer section -->
+
+  <script type="module" src="js/firestore-insertar.js"></script>
+  <script type="module" src="js/firestore-leer.js"></script>
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/sweetalert2.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/funciones.js"></script>
+
+</body>
+
+</html>
